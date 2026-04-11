@@ -91,7 +91,7 @@ public class LoginTest {
     @Test
     public void testCheckCellPhoneNumberTrue() {
         System.out.println("checkCellPhoneNumber");
-        String cellphone = "";
+        String cellphone = "+27838968976";
         Login instance = new Login();
         boolean expResult = true;
         boolean result = instance.checkCellPhoneNumber(cellphone);
@@ -101,7 +101,7 @@ public class LoginTest {
 
     public void testCheckCellPhoneNumberFalse() {
         System.out.println("checkCellPhoneNumber");
-        String cellphone = "";
+        String cellphone = "08966553";
         Login instance = new Login();
         boolean expResult = false;
         boolean result = instance.checkCellPhoneNumber(cellphone);
