@@ -15,6 +15,10 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author Ondwela Mathobo
  */
+
+
+// clicked on the yellow bulb(Create a LoginTest test file") and it automatically created this 
+//class with my methods and used this as a guide: https://youtu.be/MOhiM2SXZl0?si=M9pNZcpK8JSmQ0oM
 public class LoginTest {
     
     public LoginTest() {
