@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class QuickChat {
 
     public static void main(String[] args) {
+     //Used the online class with our lecturer for reference with this code @Thabang Tshesebe
        
     Scanner enterMenu=new Scanner(System.in);
         //linking classes

@@ -11,6 +11,10 @@ import java.util.Scanner;
  * @author Ondwela Mathobo
  */
 public class Login {
+     //Used the online class with our lecturer for reference with this code @Thabang Tshesebe 
+    //Also used Youtube, @brocode and w3schools
+    
+    
      // global variables that can be accessed throughout the program 
   String storedusername;
     String storedpassword;
