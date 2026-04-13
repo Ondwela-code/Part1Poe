@@ -72,7 +72,7 @@ public class Login {
    }
    //method checking the validation of cellphone
     boolean checkCellPhoneNumber(String cellphone){
-        if (cellphone.startsWith("+27") && cellphone.length()==12){
+        if (cellphone.startsWith("+27") && cellphone.length()==12){//+27724340786
             String numberPart=cellphone.substring(3);
             
         if (numberPart.matches("\\d{9}")){
